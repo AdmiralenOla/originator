@@ -14,6 +14,7 @@ from Bio import SeqIO
 from Bio.Blast.Applications import NcbiblastnCommandline
 from Bio.Blast import NCBIXML
 from pkg_resources import resource_string, resource_filename
+from .__init__ import __version__
 import argparse, time, os
 __version__ = '0.1b'
 
